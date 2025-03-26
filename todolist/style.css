@@ -1,0 +1,159 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+  background: linear-gradient(135deg,#153677,#4e085f);
+    margin: 0;
+    height: 100vh;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;  
+}
+.container{
+    background: linear-gradient(135deg,#3566c7,#38085f);
+    padding: 80px;
+    border-radius: 20px;
+    box-shadow: 00 10px rgba(0, 0, 0, 0.1);
+    box-shadow: color(srgb rgb(8, 8, 8) green blue);
+    border: #030303 4px 4px 0 0;
+    gap: 10px;
+    
+    
+}
+
+
+input{
+
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 18px;
+    border: color(srgb rgb(192, 204, 204) green blue);
+}
+/* button{
+
+background-color: aquamariness;
+cursor: pointer;
+border-radius: 3px;
+padding: 10px;
+
+CSS */
+.button {
+  background-color:rgba(255, 255, 255,0.1);
+  border: 2px solid hsl(253, 16%, 89%);
+  border-radius: 30px;
+  box-shadow: #07265f 4px 4px 0 0;
+  color: #000000ec;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 0 15px;
+  line-height: 35px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:hover {
+  background-color: #fff;
+}
+
+.button:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 100px;
+    padding: 0 25px;
+  }
+}
+
+
+
+.last{
+  text-decoration: line-through;
+  
+}
+
+.lastitems{
+ 
+align-items: center;
+justify-content: space-between;
+height: 2rem;
+font-size: small;
+display: flex;
+line-height: 10px;
+}
+.lastitems{
+  align-self: center;
+}
+
+hr{
+
+width: 300px;
+align-items: center;
+padding-bottom: 0px;
+margin-top: 30px;
+align-items: center;
+background:none;
+
+}
+
+
+#lastbtn{
+
+  background: none;
+  color: #0f0f0f;
+  border: none;
+  padding: 5px;
+  cursor: pointer
+  
+}
+#lastbtn :hover{
+
+color: #000;
+
+}
+span ul li {
+
+position: absolute;
+right: 0;
+top: 5px;
+width: 40px;
+height: 40px;
+color: #000;
+font-size: 22px;
+line-height: 40px;
+text-align: center;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+
+
+}
+ul li {
+  padding: 0;
+  margin: 0;
+  background-color:none;
+  margin: 5px 0;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  user-select: none;
+  cursor: pointer;
+
+}

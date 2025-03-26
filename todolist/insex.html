@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo list</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=delete" />
+
+
+</head>
+<body>
+    
+
+    <div class="container">
+        <h2>Todo-List</h2>
+        <input type="text" id="input_task" placeholder="add new task">
+        <button class="button"onclick= addtask() , role="button">add iteem</button>
+        <!---->   <span id="icon-span"> </span>
+
+    <ul id="list_task">
+     
+    
+    </ul> 
+
+        
+     
+
+    
+      <hr>
+      <div class="lastitems">
+       <div id="total"><p>Total items<span>0</span></p></div> 
+        <button id="lastbtn" role="button">deletall</button>
+      </div>
+       <script src="app.js"></script>
+
+    </div>
+
+
+</body>
+</html>
